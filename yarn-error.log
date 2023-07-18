@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\fahad.hussain\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add uuid
+
+PATH: 
+  C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\PuTTY\;C:\Users\admin\AppData\Roaming\npm;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\heroku\bin;C:\ProgramData\chocolatey\bin;C:\Users\fahad.hussain\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\fahad.hussain\AppData\Local\Android\Sdk\platform-tools;C:\Users\fahad.hussain\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\fahad.hussain\AppData\Local\Programs\Python\Python311\;C:\Users\fahad.hussain\AppData\Local\Microsoft\WindowsApps;C:\Users\fahad.hussain\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\fahad.hussain\AppData\Roaming\npm;C:\Users\fahad.hussain\.dotnet\tools;C:\Program Files\heroku\bin;C:\Program Files\heroku\bin;C:\Users\fahad.hussain\AppData\Local\Android\Sdk\platform-tools;C:\Users\fahad.hussain\AppData\Roaming\nvm;C:\Program Files\nodejs;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.0.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'G:\Fahad Work\Examples\todoapp_typescript\node_modules\bufferutil\prebuilds\win32-x64\node.napi.node'
+
+npm manifest: 
+  {
+    "scripts": {
+      "start": "snowpack dev",
+      "build": "snowpack build",
+      "test": "echo \"This template does not include a test runner by default.\" && exit 1",
+      "format": "prettier --write \"src/**/*.{ts,js}\"",
+      "lint": "prettier --check \"src/**/*.{ts,js}\""
+    },
+    "dependencies": {
+      "canvas-confetti": "^1.2.0"
+    },
+    "devDependencies": {
+      "@snowpack/plugin-typescript": "^1.2.1",
+      "@types/canvas-confetti": "^1.0.0",
+      "@types/snowpack-env": "^2.3.3",
+      "prettier": "^2.2.1",
+      "snowpack": "^3.3.7",
+      "typescript": "^4.2.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
